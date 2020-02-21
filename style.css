@@ -1,0 +1,231 @@
+body{
+	background: rgb(232,229,232);
+	font-family: helvetica;
+	font-style: initial;
+	
+}
+
+
+div{
+/*	background-color: rgb(255,255,255);
+*/	border-width: 1px;
+	/*border-style: solid;*/
+	/*border-color: black;*/
+	margin: 30px; 
+    padding: 15px;
+    border-radius: 10px;
+    /*box-shadow: 4px 4px 6px grey */
+  }
+
+
+
+
+.btn-discover{
+	background-color: rgb(2, 145, 248);
+	padding: 10px 30px;
+	box-shadow: 4px 4px 10px rgba(0,0,0);
+	border-radius: 4px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: "raleway", sans-serif;
+}
+
+.btn-discover: hover{
+	transform: scale(2);
+}
+
+
+.intro{
+	background-color: rgb(255,255,255);
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin: 30px; 
+    padding: 15px;
+    border-radius: 0px;
+    box-shadow: 4px 4px 6px grey 
+
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin: 50px
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+
+.btn-trip{
+	color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background:rgb(100,149,237);
+  transition: background 0.3s ease;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-trip: hover{
+	background: #1BCB7F;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip img {
+  height: 700px;
+  max-width: 100%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.card-trip-a h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip-a p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.btn-trip{
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-trip:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+
+
+
+
+
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  
+}
+
+.card-product img {
+  height: 200%;
+  width: 100px;
+  object-fit: cover;
+  padding: 5px;
+ 
+}
+
+.card-info h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.card-info .btn-gradient {
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+}
+
+.card-info .btn-gradient:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
+
+
+
+
+.center{
+	height: auto;
+  width: 100%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	 
+}
+
+@media   (max-width: 1000px){
+ 
+  .banner{
+    padding: 20px 50px;
+  }
+}
+@media {
+  
+    }
+}
+@media  {
+  
+  
+    width: 200px;
+  }
+}
+
+.typeform-widget{
+
+ border-width: 1px;
+margin: 30px; 
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.typeform-widget{
+	text-align: center;
+}
